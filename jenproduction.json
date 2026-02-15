@@ -33,6 +33,37 @@
       ]
     },
     {
+      "dinoType": "/ARKOzoneAscended/Dinos/TierII/Tongs/Rex/Tongs_Rex_Character_BP.Tongs_Rex_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 10,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/ARKOzoneAscended/Items/TierII/Tongs/Egg/PrimalItemConsumable_Tongs_Egg.PrimalItemConsumable_Tongs_Egg",
+              "maxQuantityPerCycle": 1,
+              "maxQuantityInTerminal": 10000,
+              "quantityPerDino": 1,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.1,
+              "alternateItems": [
+                {
+                  "bpPath": "/ARKOzoneAscended/Items/TierII/Tongs/Egg/PrimalItemConsumable_Tongs_Egg.PrimalItemConsumable_Tongs_Egg",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 3000
+                }
+              ],
+              "comsumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP",
       "chanceToProduce": 1,
       "produces": [
@@ -480,5 +511,6 @@
     }
   ]
 }
+
 
 
